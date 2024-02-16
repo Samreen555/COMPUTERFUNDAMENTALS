@@ -1,0 +1,32 @@
+. {
+    mardin: 0px;
+    padding: 0px;
+    font-family: Century;
+    background-image: image(https://c0.wallpaperflare.com/preview/105/94/569/administration-articles-bank-black-and-white.jpg);
+}
+header {
+    background-image: url(https://c0.wallpaperflare.com/preview/105/94/569/administration-articles-bank-black-and-white.jpg);
+    width: 1400px;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+.ul{
+    float:right;
+    list-type-style:none;
+    margin-top:30px;
+    min-height:400px;
+    margin-right:60px;
+    font-size:17px;
+    word-spacing:3px;
+}
+ li{
+    display:inline-block;
+}
+ a{
+    text-decoration:none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition:0.5s;
+}

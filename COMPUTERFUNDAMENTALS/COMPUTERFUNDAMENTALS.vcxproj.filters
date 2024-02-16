@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SAMREEN.html">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SAMREEN.css" />
+    <None Include="SAMREEN.js" />
+    <None Include="Articlesubmit.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Signup.html" />
+    <None Include="Home.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Home.css" />
+    <None Include="Law.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Privacypolicy.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Aboutus.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Article.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Note.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Computer.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Environment.html" />
+    <None Include="Science.html" />
+    <None Include="Technology.html" />
+    <None Include="Contact.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Law1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Computer1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Environment1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Science1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Technology1.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Math.html">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="English.html">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

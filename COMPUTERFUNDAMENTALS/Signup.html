@@ -1,0 +1,72 @@
+<html>
+<body>
+    <nav>
+        <link rekl="stylesheet" href="SAMREEN.css" />
+        <a href="Home.html" onclick="navigate('signup')"></a>
+        <div class="container">
+            <style>
+                form {
+                    display: grid;
+                    gap: 1rem;
+                }
+
+                button {
+                    background-color: #333;
+                    color: beige;
+                    padding: 0.5rem;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .container {
+                    text-align: center;
+                    max-width: 400px;
+                    margin: 100px auto;
+                    padding: 20px;
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+
+                body {
+                    background-image: url("data:image/jpeg;base64,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");
+                }
+            </style>
+            <h2>Sign Up</h2>
+            <form id="signInForm">
+                <label for="firstname">FIRST NAME:</label>
+                <input type="text" id="firstname" required>
+                <label for="lastname">LAST NAME:</label>
+                <input type="text" id="lastname" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <label for="confirmpassword">ConfirmPassword:</label>
+                <input type="password" id="confirmpassword" required>
+                <button type="button" onclick="signIn()">Sign In</button>
+            </form>
+            <p id="resultMessage"></p>
+        </div>
+    </nav>
+    <script>
+        function signIn() {
+            // Get form values
+            var firstName = document.getElementById('firstname').value;
+            var lastName = document.getElementById('lastname').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var confirmPassword = document.getElementById('confirmpassword').value;
+
+            // Add your validation and processing logic here
+            // For example, you can display a message based on validation results
+            var resultMessage = document.getElementById('resultMessage');
+            resultMessage.innerHTML = `Sign In Successful! Welcome, ${firstName} ${lastName}.`;
+
+            // You can also send this data to the server for further processing
+            // using AJAX or other techniques.
+        }
+    </script>
+</body>
+<script href="SAMREEN.js</script>
+</html>
